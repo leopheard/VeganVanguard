@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.audio.veganvanguard" name="Vegan Vanguard" version="1.0.0" provider-name="leopheard">
+  <requires>
+    <import addon="xbmc.python" version="2.26.0"/>
+    <import addon="script.module.xbmcswift2" version="2.4.0"/>
+    <import addon="script.module.beautifulsoup4" version="4.3.1"/>
+    <import addon="script.module.requests" version="1.1.0"/>
+    <import addon="script.module.routing" version="0.2.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language>en_us</language>
+    <summary lang="en">Vegan Vanguard</summary>
+    <description lang="en">Vegan Vanguard was born from both hosts wanting to share their thoughts and conversations to a broader audience using a more flexible medium than video. With YouTube, videos have to be short, concise and well-edited visually to catch (and keep) peoples’ attention. While this works well for certain topics, some issues really need to be talked out to do them any justice, which simply can’t be done in a 10 minute span. The hosts were talking so much via voice note anyway, they figured they would have enough material! Both are incredibly excited to share their passions and perspectives with you all.</description>
+    <license>The MIT License (MIT)</license>
+    <forum></forum>
+    <email>leopheard@gmail.com</email>
+    <source>https://github.com/leopheard/VeganVanguard</source>
+    <website>https://veganvanguardpodcast.com/</website>
+        	<assets>
+			<icon>resources/media/icon.jpg</icon>
+			<fanart>resources/media/fanart.jpg</fanart>
+			<screenshot>resources/media/2.jpg</screenshot>
+			<screenshot>resources/media/3.jpg</screenshot>
+			<screenshot>resources/media/icon.jpg</screenshot>
+		</assets>
+  </extension>
+</addon>
